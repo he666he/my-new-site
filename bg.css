@@ -2,6 +2,26 @@ body{
   margin:0;
   padding:0;
   font-family:"montserrat";
-  background-image:linear-gardient(125deg,)
+  background-image:linear-gardient(125deg,#f8a5c2,#f78fb3,#63cdda,#2ecc71,#ecf0f1);
+  background-size:400%;
+  animation:bganimation 15s infinite;
+}
+.text{
+  color:white;
+  text-align;center;
+  text-transform:uppercase;
+  margin:350px 0;
+  font-size:22px;
+}
 
+@keyframes bganimation {
+  0%{
+    background-position:0% 50%;
+  }
+  50%{
+    background-position:100% 50%;
+  }
+  100%{
+    background-position:0% 50%;
+  }
 }
